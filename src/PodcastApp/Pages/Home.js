@@ -8,7 +8,6 @@ const Home=()=>{
     const [flag,setFlag] = useState(false);
     return(
         <div>
-
             {
                 auth.currentUser ? (
                     <div className="home-page-user">

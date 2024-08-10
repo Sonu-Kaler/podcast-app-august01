@@ -27,6 +27,8 @@ const SignupForm=()=>{
 
                 console.log("User",user);
 
+                
+
                 await setDoc(doc(db,"Users",user.uid),{
                     name:name,
                     email:email,

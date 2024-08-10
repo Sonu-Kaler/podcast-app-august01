@@ -313,3 +313,48 @@ border: none;
 .volume-bar{
     width: 70%;
 }
+
+
+/* Responsive - */
+@media only screen and (max-width: 600px) {
+    .navbar{
+        /* width: 100%; */
+    }
+    .navbar>a{
+        font-size: 14px;
+    }
+    .form{
+        width: 80%;
+    }
+    .form>h1{
+        font-size: 22px;
+    }
+    .fields-box{
+        width: 250px;
+    }
+    .input-field{
+        font-size: 12px;
+        width: 100%;
+        padding: 4px;
+        border: 1px solid rgb(205, 205, 205);
+    }
+    .btn{
+        width: 150px;
+        height: 30px;
+        font-size: 15px;
+    }
+    .profile{
+        width: 200px;
+        height: 250px;
+    }
+    .profile>h1{
+        font-size: 18px;
+    }
+    .fileInput{
+        width: 200px;
+        margin: 10px auto;
+    }
+    .fields-box>h1{
+        font-size: 22px;
+    }
+}

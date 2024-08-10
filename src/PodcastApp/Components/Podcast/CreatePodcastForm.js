@@ -61,7 +61,7 @@ const CreatePodcastForm=()=>{
         }
     }
     return(
-        <div>
+        <div className="fields-box">
             <h1>Create Podcast</h1>
             <InputComp type="text" state={title} setState={setTitle} placeholder="Write Title" required={true}/>
             <InputComp type="text" state={desc} setState={setDesc} placeholder="Write Description" required={true}/>
